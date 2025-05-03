@@ -1,0 +1,28 @@
+.weather-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+  
+  .weather-form .form-control-custom {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .weather-card {
+    border: none;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  }
+  
+  .weather-card .weather-stats {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  

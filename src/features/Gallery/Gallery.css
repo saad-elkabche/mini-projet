@@ -1,0 +1,29 @@
+.image-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  
+  .image-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  }
+  
+  .image-container {
+    overflow: hidden;
+    height: 200px;
+  }
+  
+  .img-hover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover .img-hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
